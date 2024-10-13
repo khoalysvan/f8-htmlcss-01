@@ -541,13 +541,14 @@ a {
     line-height: normal;
 }
 .footer .list,
-.footer .desc { 
+.footer .desc {
     margin-top: 42px;
 }
 .footer .item {
-    margin-top: 18px; 
+    margin-top: 18px;
 }
-.footer .item a, .footer .desc{
+.footer .item a,
+.footer .desc {
     /* text-wrap: nowrap; */
     white-space: nowrap;
     color: #7a7a7e;
