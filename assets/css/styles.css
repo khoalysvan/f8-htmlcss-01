@@ -114,7 +114,7 @@ a {
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 177.778% */
+    line-height: 1.77; /* 177.778% */
     text-transform: capitalize;
 }
 .hero .btn-cta {
@@ -152,10 +152,34 @@ a {
 }
 
 .clients .images {
+    position: relative;
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.clients .images a:not(:nth-child(3)) {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 42px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-left: 24px;
+}
+.clients .images a:nth-child(4) {
+    display: flex;
+    margin-left: 0;
+}
+.clients .images a:nth-child(1) {
+    margin-left: 0;
+}
+.clients .images a:nth-child(3) {
+    margin: 0 4px;
+    display: flex;
+    position: relative;
+    top: 10px;
 }
 /* Guides */
 .guide {
